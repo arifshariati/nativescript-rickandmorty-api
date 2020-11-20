@@ -1,0 +1,30 @@
+
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+
+
+    <ActionBar title="Ricky Morty Api Demo" icon=""></ActionBar>
+
+    <StackLayout class="p-20">
+        <Label text="NativeScript Demo App for Ricky Morty Api" textWrap="true" class="h2 text-center"/>
+        <Button text="Get API Details" tap="{{ onTap }}" class="-primary"/>
+
+
+        <Label text="{{episode}}" textWrap="true" class="h3 text-center"/>
+        <Label text="{{name}}" textWrap="true" class="h3 text-center"/>
+        <Label text="{{air_date}}" textWrap="true" class="h3 text-center"/>
+
+        <Label text="{{list}}" textWrap="true" class="h2 text-center"/>
+
+        <ListView items="{{ characters }}" 
+          itemTap="{{listItemClicked}}"
+          separatorColor="gray"
+          
+          class="list-group text-center" id="listView" row="2">
+        <ListView.itemTemplate>
+            <StackLayout class="list-group-item">
+                <Label text="{{ $value }}" textWrap="true" class="title" />
+            </StackLayout>
+        </ListView.itemTemplate>
+    </ListView>
+    </StackLayout>
+</Page>

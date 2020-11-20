@@ -1,0 +1,17 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingPage2">
+
+    <ActionBar title="{{pageTitle || 'Page Title ..'}}"></ActionBar>
+    
+
+    <StackLayout class="p-20">
+        <Label text="{{name}}" textWrap="true" class="h2 text-center"/>
+        <Label text="{{status}}" textWrap="true" class="h2 text-center"/>
+        <Label text="{{species}}" textWrap="true" class="h2 text-center"/>
+        <Label text="{{gender}}" textWrap="true" class="h2 text-center"/>
+        <Image src="{{image}}" class="image"/>
+
+        <Button text="Go Back" tap="onTap" class="-primary"/>
+
+    </StackLayout>
+
+</Page>

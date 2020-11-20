@@ -2,8 +2,8 @@
   "name": "@nativescript/template-hello-world",
   "main": "app.js",
   "version": "7.0.3",
-  "author": "NativeScript Team <oss@nativescript.org>",
-  "description": "NativeScript Application",
+  "author": "Arif Shariati ",
+  "description": "NativeScript Application demonstrating API call on Rick and Morty API",
   "license": "SEE LICENSE IN <your-license-filename>",
   "publishConfig": {
     "access": "public"

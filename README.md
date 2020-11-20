@@ -1,0 +1,2 @@
+# nativescript-rickandmorty-api
+NativeScript App demonstrating working with API calls. For this project I have used Rick and Morty Public Api. The App has two screens, page contents and events. First Page contains list of all characters of Season 8. by pressing any of the character link second page navigation is triggered which then makes another api call for displaying character details such as name, picture etc. You can review codebase by cloning and do let me know in case of any issue.
